@@ -1,6 +1,6 @@
 {
 	"name": "@onscroll/node-hipchat",
-	"version": "0.4.4",
+	"version": "0.4.5",
 	"description": "HipChat API library for node.js",
 	"main": "lib/hipchat.js",
 	"licenses": [{
