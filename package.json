@@ -1,5 +1,5 @@
 {
-	"name": "node-hipchat",
+	"name": "@onscroll/node-hipchat",
 	"version": "0.4.4",
 	"description": "HipChat API library for node.js",
 	"main": "lib/hipchat.js",
