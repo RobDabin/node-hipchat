@@ -188,9 +188,9 @@ class HipChatClient
         if callback?
           if res.statusCode is 200
             value = if options.json is false then buffer else JSON.parse(buffer)
-            callback(value, null)
+            callback(null, value)
           else
-            callback(null, buffer)
+            callback(buffer, null)
 
     if options.data? then req.write('' + options.data)
     req.end()
